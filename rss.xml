@@ -18,8 +18,8 @@
 &lt;li&gt;在 github 上创建一个远程仓库，名字随便取（这边取 &lt;code&gt;image&lt;/code&gt; ），其他都可以默认。&lt;/li&gt;
 &lt;li&gt;在本地找到需要上传的图片文件夹（例如是 &lt;code&gt;Image&lt;/code&gt;  文件夹），进入文件夹，在该目录下打开 &lt;code&gt;git bash&lt;/code&gt; ，然后运行 &lt;code&gt;git init&lt;/code&gt;  命令初始化本地仓库，然后就是运行 &lt;code&gt;git add . &lt;/code&gt;   &lt;code&gt;git commit -m &#39;&#39;&lt;/code&gt; , 然后把本地仓库上传至 github 的远程 image 仓库即可&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id=&#34;githubpicgo搭建免费图床步骤&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#githubpicgo搭建免费图床步骤&#34;&gt;#&lt;/a&gt; github+picgo 搭建免费图床步骤&lt;/h1&gt;
-&lt;h2 id=&#34;1-安装picgo软件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-安装picgo软件&#34;&gt;#&lt;/a&gt; 1. 安装 picgo 软件&lt;/h2&gt;
+&lt;h2 id=&#34;githubpicgo搭建免费图床步骤&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#githubpicgo搭建免费图床步骤&#34;&gt;#&lt;/a&gt; github+picgo 搭建免费图床步骤&lt;/h2&gt;
+&lt;h3 id=&#34;1-安装picgo软件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-安装picgo软件&#34;&gt;#&lt;/a&gt; 1. 安装 picgo 软件&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;在 github 上搜索 picgo，如下图所示&lt;/li&gt;
 &lt;/ol&gt;
@@ -28,10 +28,10 @@
 &lt;p&gt;下载对应 windows 的版本&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Zjsxstar/image/PicGo_image/image-20231026203643428.png&#34; alt=&#34;image-20231026203643428&#34;&gt;&lt;/p&gt;
 &lt;p&gt;默认安装完成。&lt;/p&gt;
-&lt;h2 id=&#34;2在github上建立远程仓库&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2在github上建立远程仓库&#34;&gt;#&lt;/a&gt; 2. 在 github 上建立远程仓库&lt;/h2&gt;
+&lt;h3 id=&#34;2在github上建立远程仓库&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2在github上建立远程仓库&#34;&gt;#&lt;/a&gt; 2. 在 github 上建立远程仓库&lt;/h3&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Zjsxstar/image/PicGo_image/image-20231026204012567.png&#34; alt=&#34;image-20231026204012567&#34;&gt;&lt;/p&gt;
 &lt;p&gt;上图因为我已经建立了 image 仓库，所以标红报错了。&lt;/p&gt;
-&lt;h2 id=&#34;3-picgo的配置&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-picgo的配置&#34;&gt;#&lt;/a&gt; 3. picgo 的配置&lt;/h2&gt;
+&lt;h3 id=&#34;3-picgo的配置&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-picgo的配置&#34;&gt;#&lt;/a&gt; 3. picgo 的配置&lt;/h3&gt;
 &lt;p&gt;首先是点击图床设置，点击 GitHub 这一栏，然后点击 + 创建，如果已经有了就点编辑&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Zjsxstar/image/PicGo_image/image-20231026204535927.png&#34; alt=&#34;image-20231026204535927&#34;&gt;&lt;/p&gt;
 &lt;p&gt;然后进行如下的设置：&lt;/p&gt;
@@ -70,13 +70,13 @@
 &lt;p&gt;到这一步大概配置都完成了，但是还有一个需要验证的地方哦～如下图所示&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Zjsxstar/image/PicGo_image/image-20231026211017435.png&#34; alt=&#34;image-20231026211017435&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Zjsxstar/image/PicGo_image/image-20231026211109365.png&#34; alt=&#34;image-20231026211109365&#34;&gt;&lt;/p&gt;
-&lt;h1 id=&#34;结合typora快速实现其图片上传&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#结合typora快速实现其图片上传&#34;&gt;#&lt;/a&gt; 结合 typora 快速实现其图片上传&lt;/h1&gt;
-&lt;h2 id=&#34;下载typora0984及以上版本&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#下载typora0984及以上版本&#34;&gt;#&lt;/a&gt; 下载 typora0.9.84 及以上版本&lt;/h2&gt;
+&lt;h2 id=&#34;结合typora快速实现其图片上传&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#结合typora快速实现其图片上传&#34;&gt;#&lt;/a&gt; 结合 typora 快速实现其图片上传&lt;/h2&gt;
+&lt;h3 id=&#34;下载typora0984及以上版本&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#下载typora0984及以上版本&#34;&gt;#&lt;/a&gt; 下载 typora0.9.84 及以上版本&lt;/h3&gt;
 &lt;p&gt;自己网上找哈～&lt;/p&gt;
 &lt;p&gt;下载完成后，点击图片的偏好设置，进行如下图所示的设置&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Zjsxstar/image/PicGo_image/image-20231026210629147.png&#34; alt=&#34;image-20231026210629147&#34;&gt;&lt;/p&gt;
 &lt;p&gt;可以点击验证图片上传选项，看是否可行&lt;/p&gt;
-&lt;h2 id=&#34;如何上传图片&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#如何上传图片&#34;&gt;#&lt;/a&gt; 如何上传图片&lt;/h2&gt;
+&lt;h3 id=&#34;如何上传图片&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#如何上传图片&#34;&gt;#&lt;/a&gt; 如何上传图片&lt;/h3&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Zjsxstar/image/PicGo_image/image-20231026211322400.png&#34; alt=&#34;image-20231026211322400&#34;&gt; 上面是你正常把图片粘贴到目录下的情况，很明显是本地图片，一旦换个电脑或者上传到服务器上，图片就是不可见的了，只要把图片选中，右键上传图片，就能把图片上传至 github 上，这样图片在其他服务器上也是可见的，如下图所示&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Zjsxstar/image/PicGo_image/image-20231026211225958.png&#34; alt=&#34;image-20231026211225958&#34;&gt;&lt;/p&gt;
  ]]></description>
